@@ -1,0 +1,37 @@
+[
+    {
+    "month":"Jan",
+    "average":0,
+    "status":21,
+    "data":[
+        {
+            "day":"MON",
+            "value": 8
+        },
+        {
+            "day":"TUE",
+            "value": 30
+        },
+        {
+            "day":"WED",
+            "value": 12
+        },
+        {
+            "day":"THU",
+            "value": 8
+        },
+        {
+            "day":"FRI",
+            "value": 12
+        },
+        {
+            "day":"SAT",
+            "value": 10
+        },
+        {
+            "day":"SUN",
+            "value": 9
+        }
+    ]
+    }
+]

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0w7-Kp-v9u">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check-ins" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="05r-PI-fRe">
+                                <rect key="frame" x="20" y="38" width="107" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="23" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BIi-nA-nVj">
+                                <rect key="frame" x="526" y="38" width="29" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DAILY AVERAGE: 2.6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo3-uG-eNW">
+                                <rect key="frame" x="20" y="79" width="140.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59677333047945202" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="950" text="Today" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bY-r8-HeY">
+                                <rect key="frame" x="513.5" y="79" width="41.5" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="0.59677333050000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="1" translatesAutoresizingMaskIntoConstraints="NO" id="b18-MI-l9L">
+                                <rect key="frame" x="0.0" y="114" width="600" height="2"/>
+                                <color key="progressTintColor" red="0.31372549019607843" green="0.50588235294117645" blue="0.21568627450980393" alpha="0.59677333047945202" colorSpace="custom" customColorSpace="sRGB"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="slA-7R-E2q">
+                                <rect key="frame" x="20" y="102.5" width="25" height="25"/>
+                                <color key="backgroundColor" red="0.31372549020000001" green="0.50588235290000005" blue="0.2156862745" alpha="0.59677333050000003" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="Dol-qH-x2T"/>
+                                    <constraint firstAttribute="width" constant="25" id="FtV-DC-hlv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <real key="value" value="12.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e3C-Ts-1N7">
+                                <rect key="frame" x="14" y="151" width="368" height="255"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.25490196078431371" green="0.25490196078431371" blue="0.25490196078431371" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BIi-nA-nVj" firstAttribute="centerY" secondItem="05r-PI-fRe" secondAttribute="centerY" id="3Fh-bT-wBi"/>
+                            <constraint firstItem="b18-MI-l9L" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6jX-dg-7FF"/>
+                            <constraint firstItem="05r-PI-fRe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="8Zh-6f-5dL"/>
+                            <constraint firstItem="1bY-r8-HeY" firstAttribute="centerY" secondItem="bo3-uG-eNW" secondAttribute="centerY" id="DHk-lj-yXW"/>
+                            <constraint firstItem="bo3-uG-eNW" firstAttribute="leading" secondItem="05r-PI-fRe" secondAttribute="leading" id="EIW-pE-Bps"/>
+                            <constraint firstItem="bo3-uG-eNW" firstAttribute="top" secondItem="05r-PI-fRe" secondAttribute="bottom" constant="12" id="Fxa-f3-Gvd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="05r-PI-fRe" secondAttribute="bottom" constant="-47" id="Qbb-Af-eEb"/>
+                            <constraint firstItem="slA-7R-E2q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="R67-YL-nel"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BIi-nA-nVj" secondAttribute="trailing" constant="45" id="c4d-Zi-OEn"/>
+                            <constraint firstAttribute="trailing" secondItem="b18-MI-l9L" secondAttribute="trailing" id="cPz-Ue-cjs"/>
+                            <constraint firstItem="b18-MI-l9L" firstAttribute="top" secondItem="bo3-uG-eNW" secondAttribute="bottom" constant="17" id="epI-sh-f5H"/>
+                            <constraint firstItem="1bY-r8-HeY" firstAttribute="trailing" secondItem="BIi-nA-nVj" secondAttribute="trailing" id="tAv-nd-iaa"/>
+                            <constraint firstItem="b18-MI-l9L" firstAttribute="centerY" secondItem="slA-7R-E2q" secondAttribute="centerY" id="vQG-AZ-5mU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-217.39130434782609" y="132.58928571428572"/>
+        </scene>
+        <!--Card View Controller-->
+        <scene sceneID="A6v-m4-xRJ">
+            <objects>
+                <viewController id="0w7-Kp-v9u" customClass="CardViewController" customModule="PersistentHabit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vBl-96-9ro">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="erf-3V-XPP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xs1-0f-dSx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="522" y="133"/>
+        </scene>
+    </scenes>
+</document>
